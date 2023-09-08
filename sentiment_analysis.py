@@ -8,8 +8,8 @@ import tensorflow as tf
 from keras.preprocessing.text import tokenizer_from_json
 from keras.preprocessing.sequence import pad_sequences
 import json
-# import nltk
-# nltk.download('punkt')
+import nltk
+nltk.download('punkt')
 
 
 with open('tokenizer.json') as f:
