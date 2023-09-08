@@ -10,7 +10,10 @@ from keras.preprocessing.sequence import pad_sequences
 import json
 # import nltk
 # nltk.download('punkt')
-
+try:
+    import nltk
+except ImportError:
+    st.error("NLTK is not installed. Please check your deployment environment.")
 
 with open('tokenizer.json') as f:
     data = json.load(f)
