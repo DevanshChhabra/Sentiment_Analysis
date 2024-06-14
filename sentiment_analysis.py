@@ -14,12 +14,12 @@ import warnings
 warnings.filterwarnings('ignore', category=UserWarning, module='tensorflow')
 
 # Load tokenizer
-with open(r'C:\Users\devan\Downloads\tokenizer20L.json', encoding='utf-8') as f:
+with open(r'tokenizer20L.json', encoding='utf-8') as f:
     data = json.load(f)
     tokenizer = tokenizer_from_json(data)
 
 # Load model
-model = tf.keras.models.load_model(r'C:\Users\devan\Downloads\Sentiment_Analysis20L.h5')
+model = tf.keras.models.load_model(r'Sentiment_Analysis20L.h5')
 
 # Preprocessing functions (you can enable these if needed)
 def clean_text(text):
