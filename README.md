@@ -6,8 +6,8 @@ This is a Streamlit app for sentiment analysis of Amazon reviews using a pre-tra
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/my-streamlit-project.git
-    cd my-streamlit-project
+    git clone https://github.com/DevanshChhabra/Sentiment_Analysis.git
+    cd Sentiment_Analysis
     ```
 
 2. Create a virtual environment and activate it:
