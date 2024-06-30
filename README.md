@@ -42,4 +42,4 @@ This is a Streamlit app for sentiment analysis of Amazon reviews using a pre-tra
 
 ## Usage
 
-Enter an Amazon review into the text box and click "Predict" to get the sentiment analysis result.
+Enter a review into the text box and click "Predict" to get the sentiment analysis result.
